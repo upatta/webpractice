@@ -27,6 +27,10 @@
 
 }
 
+.serchbox1 a{
+    text-decoration: none;
+}
+
 .icon-img{
     width: 30px;
 }
@@ -137,7 +141,7 @@
 
 
 
-.experience-img{
+.each-img{
     width: 90%; 
     height: 340px;
     display: block;
@@ -146,16 +150,35 @@
 
 }
 
-.wrap-img p{
+.wrap-img {
     font-family: Arial, Helvetica, sans-serif;
     color: #696C6E;
-    font-weight: bold;
     font-size: 15px;
 
 }
 
+.star-icon-wrap{
+    height: 25px;
+    width: 200px;
+    
+   
 
+}
+.star-icon{
+    width: 70px;
+    float: left;
+    margin-right: 10px;
 
+}
+
+.review {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #585A5B;
+    font-size: 13px;
+   
+   
+
+}
     
 
 
@@ -248,7 +271,7 @@
 
     }
 
-    .experience-background{
+    .background{
         width: 100%;
         height: 450px;
         float:left;
@@ -268,7 +291,7 @@
     }
     
     
-    .experience-img{
+    .each-img{
         width: 100%; 
         height: 350px;
     
