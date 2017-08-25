@@ -1,0 +1,282 @@
+
+
+/* =====Small screen======= */
+
+/* ======  Header Section  ====================================================================================== */
+.airbnb-logo{
+    width: 45px;
+    display: block;
+    padding: 5px;
+    margin: auto;
+   
+}
+
+.serchbox1{
+    height: 30px;
+    width: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color:#BBC1C1;
+    background-color: lightseagreen;
+    margin: auto;
+    display: block;
+
+}
+
+.icon-img{
+    width: 30px;
+}
+
+.icon-text{
+    display: inline-block;
+    margin-left: 20px;
+   
+}
+
+.icon-text a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #A6ACAF;
+    font-weight: bold;
+    
+}
+
+.navbar-ontheright{
+    float: left;
+    margin: auto;
+}
+.navbar-ontheright ul{
+    list-style-type: none;
+     
+}
+
+.navbar-ontheright ul li{
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+.navbar-ontheright ul li a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #9A9EA2;
+    font-weight: bold;
+
+}
+
+
+.second-header{
+    height: 30px;
+    width: 100%;
+    
+}
+
+
+
+.second-navbar{
+    margin: auto;
+    height: 30px;
+    width: 360px;
+   
+}
+
+
+.second-navbar a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #696C6E;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 20px;
+    text-transform: uppercase;
+    float: left;
+    
+}
+
+
+
+.each-item-navbar-For-You a{
+    color: #0A91A7;
+    border-bottom: solid;
+    padding-bottom:12px;
+    border-color:#0A91A7;
+    
+}
+
+
+
+/* ======  Experiences Section  ====================================================================================== */
+
+.topic-item{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #696C6E;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 20px;
+    display: block;
+    float: left;
+
+}
+
+
+
+.see-all{
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #696C6E;
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 10px;
+    margin-right: 40px;
+} 
+
+
+
+
+.experience-img{
+    width: 90%; 
+    height: 340px;
+    display: block;
+    margin: auto;
+   
+
+}
+
+.wrap-img p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #696C6E;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+
+
+    
+
+
+
+
+/* =====Media Queries (Big Screen) ===================== */
+
+/* ======  Header Section  ====================================================================================== */
+
+
+@media (max-width: 380px){
+    .navbar-ontheright ul li a{
+        
+        font-weight: normal;
+        font-size: 12px;
+
+    }
+
+}
+
+@media (max-width: 640px){
+    .see-all{
+        display: none;
+    }
+
+}
+
+@media (min-width: 640px){
+
+    .wrap-header{
+        height: 75px;
+        width: 100%;
+        background-color: pink;
+        padding-top: 10px;
+    }
+
+    .airbnb-logo{
+      
+        margin-bottom: 10px;
+        float: left;
+       
+    }
+
+    /* .body-container{
+        width: 1515px;
+        margin: 0 auto;
+    } */
+    
+
+    body{
+        background: yellowgreen;
+    }
+  
+    
+    .serchbox1{
+        float: left;
+    }
+
+    .navbar-ontheright{
+        float: right;
+    }
+    
+
+    .second-header{ 
+        background: lightblue;
+        border-bottom-color: #BCC0C1;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+    }
+   
+   
+    .second-navbar{
+        margin-left: 20px;
+        background: lightgoldenrodyellow
+    }
+
+
+    .each-item-navbar-For-You a{
+        color: #0A91A7;
+              
+    }
+
+
+    /* ======  Experiences Section  ====================================================================================== */
+   
+    .wrap-topic-item{
+        height: 50px;
+        width: 100%;
+        background: #F888F4;
+
+    }
+
+    .experience-background{
+        width: 100%;
+        height: 450px;
+        float:left;
+        background: orange;
+        
+    }
+    
+
+    .wrap-img{
+        width: 15.5%; 
+        height: 340px;
+        display: inline-block;
+        margin-left: 8px;
+        background: gray;
+        
+       
+    }
+    
+    
+    .experience-img{
+        width: 100%; 
+        height: 350px;
+    
+    }
+
+   
+   
+    
+
+
+}
