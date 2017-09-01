@@ -3,9 +3,6 @@
 .wrap-airbnbandsearchbox-mosttop{
     display: flex;
     flex-direction: column;
-    
-    
-    
 }
 
 
@@ -37,18 +34,41 @@
         .wrap-arrowdownbutton{
             display: none;
         }
+
+        .wrapdetail-secondnavbar-therest{
+            display: none;
+        }
+
     }
 
     @media (min-width:370px){
 
-        .wrap-airbnbandsearchbox-mosttop{
+        .wrap-airbnbandsearchbox-mosttop,
+        .secondnavbar{
             display: flex;
             flex-direction: row;
             
             
         }
 
+        .wrapheader{
+            height: 80px;
+            
+        }
 
+        .wrap-foryoudropdown:hover .foryou-dropdown-content{
+            display: none;
+        }
+
+
+    }
+
+    @media (min-width: 900px){
+        .serchbox-top,
+        .wrap-arrowdownbutton,
+        .wrapfordrowdown:hover .arrowdown-content{
+            display: none;
+        }
     }
 
 

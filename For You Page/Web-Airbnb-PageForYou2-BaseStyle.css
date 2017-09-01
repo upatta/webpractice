@@ -1,3 +1,4 @@
+
 /* ======  Header Section  ====================================================================================== */
 
 *{
@@ -13,7 +14,7 @@ body{
 /* ===== Header Section  ============= */
 
 .wrapheader{
-    height: 80px;
+    height: 130px;/*80px*/
     width: 100%;
     background: pink;
     
@@ -71,7 +72,6 @@ body{
     color: #63676A;
     font-size: 15px;
     
-   
 }
 
 .wrap-airbnbandsearchbox-mosttop{
@@ -79,9 +79,6 @@ body{
     z-index: 500;
     background:white;
 
-    
-    
-    
 }
 
 /* =========drop down============== */
@@ -103,10 +100,10 @@ body{
     width: 330px;
     position: absolute;
      top: 50px;
-     left: 20px;
+     left: 10px;
     background-color: white;
-   
-    
+    z-index: 2;
+     
 }
 
 .wrapfordrowdown:hover .arrowdown-content{
@@ -136,10 +133,14 @@ body{
   
   /* ==SecondNavBar== */
 
+
+
+
+
 .secondnavbar{
     height: 30px;
     width: 100%;
-    /* background: lightblue; */
+    background: lightblue;
     padding-left:10px;
     border-bottom-color: #B7BEBE;
     border-width: 1px;
@@ -151,7 +152,6 @@ body{
 .wrapdetail-secondnavbar-therest a{
     margin-right: 10px;
     margin-left: 10px;
-  
 
 }
 
@@ -179,6 +179,36 @@ body{
     border-width: 2px;
     border-bottom-style: solid;
     padding-bottom: 10px;
+}
+
+ /* ===For You Drop Down ==== */
+
+.wrap-foryoudropdown{
+    position: relative;
+}
+
+.foryou-dropdown-content{
+    display: none;
+    position: absolute;
+     top: 30px;
+
+    height: 200px;
+    width: 180px;
+    background: lightgreen;
+}
+
+.foryou-dropdown-content a {
+    text-decoration: none;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #919495;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.wrap-foryoudropdown:hover .foryou-dropdown-content{
+    display: block;
 }
 
  
