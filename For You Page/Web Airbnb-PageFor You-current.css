@@ -9,12 +9,12 @@
 .wrap-first-line-header{
     height: 70px;
     width: 100%;
-    background: pink;
+    /* background: pink; */
 }
 
 .wrap2logo-top{
     width: 50px;
-    background: lightseagreen;
+    /* background: lightseagreen; */
 
 }
 .airbnb-logo{
@@ -35,14 +35,14 @@
 .searchbox-top-container{
     height: 40px;
     width: 450px;
-    background: lightblue;
+    /* background: lightblue; */
     margin-top: 5px;
 }
 
 .airbnb-logo-searchbox-container{
     height: 55px;
     width: 510px;
-    background: lightcoral;
+    /* background: lightcoral; */
     
 }
 
@@ -58,10 +58,10 @@
     height: 35px;
     width: 150px;
     display: inline-block;
-    background: lightgoldenrodyellow;
+    /* background: lightgoldenrodyellow; */
     padding: 5px;
     border-style: solid;
-    border-width: 1px;
+    border-width: 0.5px;
     border-color: #949799; 
 }
 
@@ -92,7 +92,7 @@
 .righttop-navbar-container{
     height: 40px;
     width: 360px;
-    background: lightgreen;  
+    /* background: lightgreen;   */
 }
 
 .righttop-navbar-container li{
@@ -101,12 +101,13 @@
     margin-right: 15px;
 }
 
+
 .righttop-navbar-container a{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     color:#5F6162;
     font-size: .925em;
-   font-weight: bold;
+    font-weight: bold;
 }
 
 .righttop-navbar-container li a:hover:not(.active){
@@ -116,9 +117,177 @@
 }
 
 
+/* ======== second line header (Navbar) ======= */
+.second-navbar-container{
+    height: 30px;
+    width: 100%;
+    /* background: lightcyan; */
+    border-bottom-style: solid;
+    border-bottom-color:#BABEC0;
+    border-bottom-width: 1px;
+}
+
+.for-you a,
+.therest-item-on-second-navbar a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#5F6162;
+    text-transform: uppercase;
+    font-size: .9em;
+    font-weight: bold;
+
+
+}
+
+.therest-item-on-second-navbar a{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.for-you a {
+    color:#0C776B;
+}
+
+.for-you{
+    
+    height: 30px;
+    /* background: lightgoldenrodyellow; */
+    display: inline-block;
+    border-bottom-style: solid;
+    border-bottom-color:#0C776B;
+    border-bottom-width: 3px;
+
+}
+
+/* ======== Main body ================================== */
+
+.wrapbody-container{
+    width: 95%;
+    margin: 0 auto;
+    /* background: pink; */
+}
+
+
+.topic-container{
+    width: 95.5%;
+    height: 50px;
+    margin-top: 50px;
+    background: lightcoral;
+}
+
+.topic-detail-box{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#5F6162;
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+
+.see-all-box a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#5F6162;
+    font-weight: bold;
+    font-size: 1em;
+    display: block;
+    margin-top: 4px;
+
+}
+
+/* =====Experiences === */
+
+.Experience-container{
+    width: 100%;
+    height: 490px;
+    background: lightgoldenrodyellow;
+}
+
+.wrap-expics{
+    width: 100%;
+    height: 80%;
+    background: pink;
+}
+
+.review{
+    width: 100%;
+    height: 20%;
+    background: lightsalmon;
+}
+
+.wrap-each-pic{
+    width: 15%; /*6pcs*/
+    height: 100%; 
+    margin-right: 20px;
+    background: lightblue;
+    float: left;
+}
+
+.exp-pics{
+    width: 100%;
+    height: 100%;
+}
+
+
+.star{
+    width: 70px;
+    margin-top: 10px;
+}
+
+.text-underpic-box a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#5F6162;
+    font-size: 1em;
+}
+
+.review a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#5F6162;
+    font-size: 0.75em;
+    margin-left: 10px;
+}
+
+/* =====Homes === */
+
+.Homes-container{
+    width: 100%;
+    height: 300px;
+    background: lightgreen;
+}
+
+.wrap-each-pic-homes{
+    width: 18%; /*5pcs*/
+    height: 100%;
+    background: pink;
+    float: left;
+    margin-right: 20px;
+}
+
+
+
+.homes-pics{
+    width: 100%;
+    height: 80%;
+}
+   
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+/* =====footer === */
+/* .footer{
+    width: 100%;
+    height: 300px;
+    background: lightsteelblue;
+} */

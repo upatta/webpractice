@@ -1,21 +1,111 @@
 
 .searchbox-top-container,
 .airbnb-logo-searchbox-container,
-.wrap-first-line-header{
+.wrap-first-line-header,
+.topic-container{
     display: flex;
 }
 
+.wrap-first-line-header,
+.topic-container,
 .airbnb-logo-searchbox-container{
    justify-content: space-between
 }
 
-.wrap-first-line-header{
-    justify-content: space-between
+
+
+.second-navbar-container{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
+/* .Experience-container{
+    display: flex;
+    flex-wrap: wrap;
+    
+
+} */
+
 
 /* ====== Media Queries ======== */
+
+
+@media (max-width: 1680px){
+    .Experience-container{
+        width: 100%;
+        height: 420px;
+        background: lightgoldenrodyellow;
+    }
+
+}
+
+/* @media (max-width: 1450px){
+    .wrap-each-pic{
+        width: 18%; 
+        height: 50%;
+        margin-right: 20px;
+        background: lightblue;
+    }
+
+    .Experience-container{
+        width: 100%;
+        height: 940px; 
+        background: lightgoldenrodyellow;
+    }
+}
+
+@media (max-width: 1225px){
+    .wrap-each-pic{
+        width: 23%; 
+        height: 50%;
+        margin-right: 20px;
+        background: lightblue;
+    }
+
+    .Experience-container{
+        width: 100%;
+        height: 940px;
+        background: lightgoldenrodyellow;
+    }
+}
+
+@media (max-width: 1069px){
+    .wrap-each-pic{
+        width: 30%; 
+        height: 85%;
+        margin-right: 20px;
+        background: lightblue;
+    }
+}
+
+@media (max-width: 660px){
+    .wrap-each-pic{
+        width: 45%;
+        height: 33%;
+        margin-right: 20px;
+        background: lightblue;
+    }
+    .Experience-container{
+        width: 100%;
+        height: 1260px;
+        background: lightgoldenrodyellow;
+    }
+}
+
+
+@media (max-width: 400px){
+    .wrap-each-pic{
+        width: 95%;
+        height: 85%;
+        margin-right: 20px;
+        background: lightblue;
+    }
+} */
+
+
+/* ============================ */
+
 
 @media (max-width: 926px){
     .righttop-navbar-container  {
@@ -28,7 +118,7 @@
 
     .wrap2logo-top{
         width: 80px;
-        background: #20B2A9;
+        /* background: #20B2A9; */
     
     }
 
@@ -46,7 +136,7 @@
     .wrap-arrow-logo{
         width: 25px;
         display: inline-block;
-        background:grey;
+        /* background:grey; */
     }
         
     
@@ -59,11 +149,72 @@
    /* ====Arrow dropdown Content ============  */
 
 
-    .H-L-detail-container a,
+    .H1-detail-container a,
+    .H2-detail-container a,
     .the-rest-detail-container a{
         text-decoration: none;
         display: block;
+        font-family: Arial, Helvetica, sans-serif;
+        color:#5F6162;
+        font-size: 20px;
+        
     }
+
+    .the-rest-detail-container a{
+        margin-top: 30px;
+    }
+
+    .wrap-arrow-logo{
+        position: relative;
+    }
+
+    .arrow-dropdown-container{
+        display: none;
+        position: absolute;
+         top: 25px;
+        
+        border-radius: 10px;
+        height: 600px;
+        background: white;
+        z-index: 2;
+    }
+
+    .wrap-arrow-logo:hover .arrow-dropdown-container{
+        display: block;
+    }
+    .arrow-dropdown-container,
+    .H1-detail-containe,
+    .H2-detail-container{
+        width: 350px;
+
+    }
+
+
+    .H1-detail-container{
+        
+        height: 85px;
+        /* background: pink; */
+        border-bottom-style: solid;
+        border-bottom-color: #5F6162;
+        border-bottom-width: 1px;
+
+    }
+    .H1-detail-container a,
+    .H2-detail-container a{
+        padding-top: 35px;
+    }
+
+    .H2-detail-container{
+       
+        height: 80px;
+        margin-top: 30px;
+        /* background: lightblue; */
+        border-top-style: solid;
+        border-top-color: #5F6162;
+        border-top-width: 1px;
+    }
+
+    
 
 
 
