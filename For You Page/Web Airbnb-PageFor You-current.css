@@ -9,12 +9,10 @@
 .wrap-first-line-header{
     height: 70px;
     width: 100%;
-    /* background: pink; */
 }
 
 .wrap2logo-top{
     width: 50px;
-    /* background: lightseagreen; */
 
 }
 .airbnb-logo{
@@ -35,14 +33,12 @@
 .searchbox-top-container{
     height: 40px;
     width: 450px;
-    /* background: lightblue; */
     margin-top: 5px;
 }
 
 .airbnb-logo-searchbox-container{
     height: 55px;
     width: 510px;
-    /* background: lightcoral; */
     
 }
 
@@ -58,7 +54,6 @@
     height: 35px;
     width: 150px;
     display: inline-block;
-    /* background: lightgoldenrodyellow; */
     padding: 5px;
     border-style: solid;
     border-width: 0.5px;
@@ -92,7 +87,6 @@
 .righttop-navbar-container{
     height: 40px;
     width: 360px;
-    /* background: lightgreen;   */
 }
 
 .righttop-navbar-container li{
@@ -121,7 +115,6 @@
 .second-navbar-container{
     height: 30px;
     width: 100%;
-    /* background: lightcyan; */
     border-bottom-style: solid;
     border-bottom-color:#BABEC0;
     border-bottom-width: 1px;
@@ -149,9 +142,7 @@
 }
 
 .for-you{
-    
     height: 30px;
-    /* background: lightgoldenrodyellow; */
     display: inline-block;
     border-bottom-style: solid;
     border-bottom-color:#0C776B;
@@ -164,7 +155,7 @@
 .wrapbody-container{
     width: 95%;
     margin: 0 auto;
-    /* background: pink; */
+    
 }
 
 
@@ -198,20 +189,8 @@
 
 .Experience-container{
     width: 100%;
-    height: 490px;
+    height: 400px;
     background: lightgoldenrodyellow;
-}
-
-.wrap-expics{
-    width: 100%;
-    height: 80%;
-    background: pink;
-}
-
-.review{
-    width: 100%;
-    height: 20%;
-    background: lightsalmon;
 }
 
 .wrap-each-pic{
@@ -222,72 +201,143 @@
     float: left;
 }
 
+.wrap-expics{
+    width: 100%;
+    height: 80%;
+    background: pink;
+}
+
 .exp-pics{
     width: 100%;
     height: 100%;
 }
 
+.review{
+    width: 100%;
+    height: 20%;
+    background: lightsalmon;
+}
+
 
 .star{
     width: 70px;
-    margin-top: 10px;
+    margin-top: 8px;
 }
+
 
 .text-underpic-box a{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     color:#5F6162;
     font-size: 1em;
+    background: #EAD1E1;
+    width:100%;
+    height: 35px;
 }
 
-.review a{
+.wrapstar-review a{
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    color:#5F6162;
-    font-size: 0.75em;
-    margin-left: 10px;
+    color:#404142;
+    font-size: 0.9em;
+    display: inline-block;
+    padding-bottom: 5px;
+
 }
+.wrapstar-review{
+    background: #42E085;
+}
+
+
 
 /* =====Homes === */
 
 .Homes-container{
     width: 100%;
-    height: 300px;
-    background: lightgreen;
+    height: 280px;
+    background: lightseagreen;
 }
 
-.wrap-each-pic-homes{
-    width: 18%; /*5pcs*/
-    height: 100%;
-    background: pink;
+.container-each-pic-homes{
+    width: 23%; 
+    height: 100%; 
+    background: lightgoldenrodyellow;
     float: left;
-    margin-right: 20px;
+    margin-right: 15px;
 }
 
-
-
-.homes-pics{
+.wrap-expicsH{
     width: 100%;
     height: 80%;
+    background:lightgray;
 }
+
+.exp-pics{
+    width: 100%;
+    height: 100%;
+}
+
+.reviewH{
+    width: 100%;
+    height: 20%;
+    background: lightpink;
+}
+
+.text-underpic-boxH a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#5F6162;
+    font-size: 1em;
+    background: #EAD1E1;
+    width:100%;
+    height: 35px;
+
+}
+
+.wrapstar-reviewH a{
+    text-decoration: none;
+    color:#404142;
+    font-size: 0.9em;
+    display: inline-block;
+    padding-bottom: 5px;
    
+}
+.wrapstar-reviewH{
+    background: #669EEC;
+}
 
+/* Right-Arrow-Homes */
 
+.wrap-pic4-homes{
+    position: relative;
+}
 
+.right-arrow-container-home{
+    position: absolute;
+        top: 100px;
+        left: 310px;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 100%;
+    z-index: 10px;
+    
+}
 
-
-
-
-
-
-
-
+.right-arrow{
+    width: 20px;
+    height: 25px;
+    margin-left: 10px;
+    margin-top: 8px;
+    
+}
 
 
 
 /* =====footer === */
-/* .footer{
+.footer{
     width: 100%;
-    height: 300px;
-    background: lightsteelblue;
-} */
+    height: 500px;
+    background: #AFF4D9;
+
+    margin-top: 150px;
+}

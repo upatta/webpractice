@@ -20,118 +20,185 @@
 }
 
 
-/* .Experience-container{
-    display: flex;
-    flex-wrap: wrap;
-    
-
-} */
 
 
 /* ====== Media Queries ======== */
 
+@media (max-width: 1450px){
+    .right-arrow-container-home{
+        position: absolute;
+        left: 290px;
+       
+        
+    }
+    
+}
 
-@media (max-width: 1680px){
-    .Experience-container{
-        width: 100%;
-        height: 420px;
-        background: lightgoldenrodyellow;
+@media (max-width: 1400px){
+    .expic6{
+        display: none;
+    }
+
+    .wrap-each-pic{
+        width: 18%; /*5pcs*/
+       
+    }
+}
+
+@media (max-width: 1380px){
+    .right-arrow-container-home{
+        position: absolute;
+        left: 270px;
+       
+    }
+    
+}
+
+
+@media (max-width: 1360px){
+    .container-homes-pic4{
+        display: none;
+    }
+    .container-each-pic-homes{
+        width: 30.3%;
+    }
+
+    .wrap-homes-pic3{
+        position: relative;
+    }
+
+    .right-arrow-container-home-pic3{
+        position: absolute;
+            top: 100px;
+            left: 360px;
+        width: 40px;
+        height: 40px;
+        background: white;
+        border-radius: 100%;
+        z-index: 10px;      
     }
 
 }
 
-/* @media (max-width: 1450px){
-    .wrap-each-pic{
-        width: 18%; 
-        height: 50%;
-        margin-right: 20px;
-        background: lightblue;
-    }
-
-    .Experience-container{
-        width: 100%;
-        height: 940px; 
-        background: lightgoldenrodyellow;
+@media (max-width: 1300px){
+    .right-arrow-container-home-pic3{
+        position: absolute;
+        left: 340px;
+      
     }
 }
 
-@media (max-width: 1225px){
-    .wrap-each-pic{
-        width: 23%; 
-        height: 50%;
-        margin-right: 20px;
-        background: lightblue;
-    }
-
-    .Experience-container{
-        width: 100%;
-        height: 940px;
-        background: lightgoldenrodyellow;
-    }
-}
-
-@media (max-width: 1069px){
-    .wrap-each-pic{
-        width: 30%; 
-        height: 85%;
-        margin-right: 20px;
-        background: lightblue;
-    }
-}
-
-@media (max-width: 660px){
-    .wrap-each-pic{
-        width: 45%;
-        height: 33%;
-        margin-right: 20px;
-        background: lightblue;
-    }
-    .Experience-container{
-        width: 100%;
-        height: 1260px;
-        background: lightgoldenrodyellow;
+@media (max-width: 1230px){
+    .right-arrow-container-home-pic3{
+        position: absolute;
+        left: 320px;
+      
     }
 }
 
 
-@media (max-width: 400px){
-    .wrap-each-pic{
-        width: 95%;
-        height: 85%;
-        margin-right: 20px;
-        background: lightblue;
+@media (max-width: 1190px){
+    .expic5{
+        display: none;
     }
-} */
+
+    .wrap-each-pic{
+        width: 23%; /*4pcs*/
+       
+    }
+}
+
+@media (max-width: 1150px){
+    .right-arrow-container-home-pic3{
+        position: absolute;
+        left: 300px;
+      
+    }
+}
+
+@media (max-width: 1090px){
+    .right-arrow-container-home-pic3{
+        left: 280px;
+      
+    }
+}
 
 
-/* ============================ */
+@media (max-width: 1070px){
+    .expic4{
+        display: none;
+    }
+
+    .wrap-each-pic{
+        width: 29.3%; /*3pcs*/
+       
+    }
+}
+
+@media (max-width: 1030px){
+
+    .right-arrow-container-home-pic3{
+        left: 260px;
+      
+    }
+
+    .text-underpic-boxH a{
+        font-size: 0.8em;
+    }
+    
+}
+
+@media (max-width: 950px){
+    .container-eachpic-homes-pic3{
+        display: none;
+    }
+    .Homes-container{
+        height: 260px;
+    }
+
+    .container-each-pic-homes{
+        width: 45%; 
+    }
+
+    .star{
+        width: 50px;
+    }
+    
+}
 
 
 @media (max-width: 926px){
+
+    .expic3{
+        display: none;
+    }
+
+    .wrap-each-pic{
+        width: 45%; /*3pcs*/
+       
+    }
+
+    .Experience-container{
+        width: 100%;
+        height: 370px;
+        background: lightgoldenrodyellow;
+    }
+
+
     .righttop-navbar-container  {
         display: none;
     }
 
-    /* .airbnb-logo-searchbox-container{
-        margin: auto;
-    } */
-
     .wrap2logo-top{
         width: 80px;
-        /* background: #20B2A9; */
     
     }
-
-    
 
     .airbnb-logo-searchbox-container{
-        /* height: 55px; */
         width: 530px;
         margin: auto;
-        /* background: lightcoral; */
     }
 
-   
 
     .wrap-arrow-logo{
         width: 25px;
@@ -139,7 +206,6 @@
         /* background:grey; */
     }
         
-    
     .arrow-logo{
         width: 20px;
         margin-bottom: 10px;
@@ -208,25 +274,23 @@
        
         height: 80px;
         margin-top: 30px;
-        /* background: lightblue; */
         border-top-style: solid;
         border-top-color: #5F6162;
         border-top-width: 1px;
     }
-
-    
-
-
-
-
-
-    
 }
 
 
-
-
 @media (max-width: 555px){
+    .Experience-container{
+        height: 270px;
+    }
+
+    .text-underpic-box a{
+        font-size: 0.75em;
+    }
+
+
     .searchbox-top-container{
         display: none;
     }
@@ -239,10 +303,9 @@
     }
 
     .airbnb-logo-searchbox-container{
-        /* height: 55px; */
+    
         width: 380px;
-        /* margin: auto; */
-        /* background: lightcoral; */
+        
     }
 
     .each-search-box2{
@@ -256,18 +319,85 @@
         border-color: #949799; 
     }
 
-    /* .logo-in-serach-box{
-        width: 20px;
-    } */
 
     .icon-text2{
         margin-right: 12px;
     }
 
+}
+
+@media (max-width: 565px){
+    .container-each-pic-homes-pic2{
+        display: none;
+    }
+    .Homes-container{
+        width: 90%;
+        height: 250px;
+    }
+
+    .container-each-pic-homes{
+        width: 90%; 
+    }
+
+    .container-each-pic-homes{
+        margin-left: 30px;
+    }
+
+    .text-underpic-boxH a{
+        font-size: 1em;
+    }
     
+    .wrapstar-reviewH a{
+        font-size: 1em;
+    }
+    
+    .star{
+        width: 70px;
+    }
 
+    .wrap-expicsH{
+        width: 100%;
+        height: 75%;
+        background:lightgray;
+    }
 
+    .reviewH{
+        width: 100%;
+        height: 25%;
+        background: lightpink;
+    }
 
+}
 
+@media (max-width: 445px){
+    .Experience-container{
+        height: 250px;
+    }
+
+    .expic2{
+        display: none;
+    }
+
+    .wrap-each-pic{
+        width: 80%; 
+        margin-left: 30px;
+        
+    }
+    .text-underpic-box a{
+        font-size: 0.9em;
+    }
+
+    .text-underpic-boxH a{
+        font-size: .8em;
+    }
+    
+    .wrapstar-reviewH a{
+        font-size: 0.7em;
+       
+    }
+    
+    .star{
+        width: 50px;
+    }
 
 }
