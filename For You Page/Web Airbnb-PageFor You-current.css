@@ -6,6 +6,15 @@
 
 /* ======= Top Header ============== */
 
+.header-container{
+    height: 100px;
+    width: 100%;
+    background: pink;
+    position: fixed;
+    z-index: 100;
+
+}
+
 .wrap-first-line-header{
     height: 70px;
     width: 100%;
@@ -115,9 +124,12 @@
 .second-navbar-container{
     height: 30px;
     width: 100%;
+    
     border-bottom-style: solid;
     border-bottom-color:#BABEC0;
     border-bottom-width: 1px;
+    
+
 }
 
 .for-you a,
@@ -161,9 +173,11 @@
 
 .topic-container{
     width: 95.5%;
-    height: 50px;
-    margin-top: 50px;
+    /* height: 50px; */
+    /* margin-top: 50px; */
     background: lightcoral;
+    padding-top: 130px;
+    
 }
 
 .topic-detail-box{
@@ -250,6 +264,15 @@
 
 
 /* =====Homes === */
+
+.topic-container2{
+    width: 95.5%;
+    height: 50px;
+    margin-top: 50px;
+    background: lightblue;
+    /* padding-top: 130px; */
+    
+}
 
 .Homes-container{
     width: 100%;
@@ -340,4 +363,97 @@
     background: #AFF4D9;
 
     margin-top: 150px;
+    border-top-style: solid;
+    border-top-color: #C9CBCF;
+    border-top-width: 1px;
 }
+
+.footer-maincontent-container{
+    width: 100%;
+    height: 350px;
+    background: lightgoldenrodyellow;
+    margin-top: 40px;
+}
+
+.footer-content-box1{
+    width: 200px;
+    height: 250px;
+    background: pink;
+    margin-left: 50px;
+}
+
+.currency-box,
+.language-box{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background: lightblue;
+    border: 1px solid #B9BBC1;
+    border-radius: 5px;
+    
+  
+}
+
+.currency-box a,
+.language-box a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#66686E;
+    margin-top: 15px;
+    margin-left: 15px;
+    display: inline-block;
+    font-size: 20px;
+
+}
+
+   /* language & currency dropdown detail */
+
+.currency-detail-box,
+.language-detail-box{
+    width: 200px;
+    height: 420px;
+    background: #D4D2EA;
+    color: #8C9090;
+    font-size: 20px;
+    padding-left: 12px;
+    display: none;
+    position: absolute;
+    top: -420px;
+    line-height: 140%;
+    overflow: scroll;
+    border-left: solid 1px #116568;
+    border-top: solid 1px #116568;
+}
+
+.currency-detail-box{
+    text-transform: uppercase;
+}
+
+
+.currency-box:hover .currency-detail-box,
+.language-box:hover .language-detail-box{
+    display: block;
+    cursor: default;
+}
+
+    /* ======================== */
+
+
+
+
+
+
+.arrow-down-footer-box{
+    width: 30px;
+    height: 30px;
+    background: lightgray;
+    float: right;
+    margin-right: 20px;
+}
+
+.img-arrow-down-footer{
+    width: 30px;
+    height: 30px;
+    
+}
+

@@ -2,12 +2,14 @@
 .searchbox-top-container,
 .airbnb-logo-searchbox-container,
 .wrap-first-line-header,
-.topic-container{
+.topic-container,
+.topic-container2{
     display: flex;
 }
 
 .wrap-first-line-header,
 .topic-container,
+.topic-container2,
 .airbnb-logo-searchbox-container{
    justify-content: space-between
 }
