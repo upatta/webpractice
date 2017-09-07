@@ -320,6 +320,10 @@
 @media (max-width: 650px){
     /* ==footer== */
 
+    .footer{
+        height: 300px;
+    }
+    
     .F-the-rest-box{
         display: none;
     }
@@ -384,6 +388,33 @@
     .icon-text2{
         margin-right: 12px;
     }
+
+    /* ==footer== */
+    .footer-maincontent-container,
+    .footer-content-box1{
+        height: 130px;
+        width: 200px;
+        margin: auto;
+    }
+
+    .language-box,
+    .currency-box{
+        display: block;
+    }
+
+    .bottom-container{
+        display: flex;
+        flex-direction: column;
+        height: 90px;
+    }
+
+    .footer{
+        height: 300px;
+    }
+
+
+
+
 
 }
 
