@@ -9,7 +9,7 @@
 .header-container{
     height: 100px;
     width: 100%;
-    background: pink;
+    background: white;
     position: fixed;
     z-index: 100;
 
@@ -124,7 +124,6 @@
 .second-navbar-container{
     height: 30px;
     width: 100%;
-    
     border-bottom-style: solid;
     border-bottom-color:#BABEC0;
     border-bottom-width: 1px;
@@ -173,10 +172,8 @@
 
 .topic-container{
     width: 95.5%;
-    /* height: 50px; */
-    /* margin-top: 50px; */
-    background: lightcoral;
     padding-top: 130px;
+    margin-bottom: 20px;
     
 }
 
@@ -204,21 +201,20 @@
 .Experience-container{
     width: 100%;
     height: 400px;
-    background: lightgoldenrodyellow;
+   
 }
 
 .wrap-each-pic{
     width: 15%; /*6pcs*/
     height: 100%; 
     margin-right: 20px;
-    background: lightblue;
     float: left;
 }
 
 .wrap-expics{
     width: 100%;
     height: 80%;
-    background: pink;
+   
 }
 
 .exp-pics{
@@ -229,7 +225,6 @@
 .review{
     width: 100%;
     height: 20%;
-    background: lightsalmon;
 }
 
 
@@ -244,7 +239,6 @@
     font-family: Arial, Helvetica, sans-serif;
     color:#5F6162;
     font-size: 1em;
-    background: #EAD1E1;
     width:100%;
     height: 35px;
 }
@@ -257,10 +251,6 @@
     padding-bottom: 5px;
 
 }
-.wrapstar-review{
-    background: #42E085;
-}
-
 
 
 /* =====Homes === */
@@ -269,21 +259,20 @@
     width: 95.5%;
     height: 50px;
     margin-top: 50px;
-    background: lightblue;
-    /* padding-top: 130px; */
+   
     
 }
 
 .Homes-container{
     width: 100%;
     height: 280px;
-    background: lightseagreen;
+    /* background: lightseagreen; */
 }
 
 .container-each-pic-homes{
     width: 23%; 
     height: 100%; 
-    background: lightgoldenrodyellow;
+    /* background: lightgoldenrodyellow; */
     float: left;
     margin-right: 15px;
 }
@@ -302,7 +291,6 @@
 .reviewH{
     width: 100%;
     height: 20%;
-    background: lightpink;
 }
 
 .text-underpic-boxH a{
@@ -310,7 +298,6 @@
     font-family: Arial, Helvetica, sans-serif;
     color:#5F6162;
     font-size: 1em;
-    background: #EAD1E1;
     width:100%;
     height: 35px;
 
@@ -324,9 +311,7 @@
     padding-bottom: 5px;
    
 }
-.wrapstar-reviewH{
-    background: #669EEC;
-}
+
 
 /* Right-Arrow-Homes */
 
@@ -341,6 +326,7 @@
     width: 40px;
     height: 40px;
     background: white;
+    border: solid 1px #DDD9D9;
     border-radius: 100%;
     z-index: 10px;
     
@@ -359,13 +345,12 @@
 .Paris-container{
     width: 100%;
     height: 250px;
-    background: lightgreen;
+    
 }
 
 .container-each-pic-paris{
-    width: 14%;
+    width: 15%;
     height: 100%;
-    background: #1996BF;
     float: left;
     margin-right: 15px;
 }
@@ -374,13 +359,12 @@
     position: relative;
     width: 100%;
     height: 80%;
-    background: lightgoldenrodyellow;
+  
 }
 
 .text-box-under-paris{
     width: 100%;
     height: 20%;
-    background: #EA88F8;
     
 }
 
@@ -426,7 +410,7 @@
     font-size: 20px;
     font-weight: bold;
    
-    /* background:#C5C1C1; */
+    
 }
 
 .text-detail-paris a{
@@ -446,15 +430,6 @@
     
 }
 
-
-
-
-
-
-
-
-
-
 /* =====footer === */
 
 .wrapfooter-container{
@@ -464,7 +439,7 @@
 .footer{
     width: 100%;
     height: 450px;
-    background: #AFF4D9;
+    
 
     margin-top: 150px;
     border-top-style: solid;
@@ -475,7 +450,6 @@
 .footer-maincontent-container{
     width: 100%;
     height: 250px;
-    background: lightgoldenrodyellow;
     margin-top: 40px;
     border-bottom: 1px solid #BFC2C6;
 }
@@ -483,8 +457,8 @@
 .footer-content-box1{
     width: 200px;
     height: 250px;
-    background: pink;
-    /* margin-left: 50px; */
+    
+    
 }
 
 .currency-box,
@@ -492,7 +466,6 @@
     position: relative;
     width: 100%;
     height: 60px;
-    background: lightblue;
     border: 1px solid #B9BBC1;
     border-radius: 5px;
     
@@ -517,7 +490,7 @@
 .language-detail-box{
     width: 200px;
     height: 420px;
-    background: #D4D2EA;
+    background: white;
     color: #8C9090;
     font-size: 20px;
     padding-left: 12px;
@@ -528,6 +501,7 @@
     overflow: scroll;
     border-left: solid 1px #116568;
     border-top: solid 1px #116568;
+    z-index: 9;
 }
 
 .currency-detail-box{
@@ -547,7 +521,6 @@
 .arrow-down-footer-box{
     width: 30px;
     height: 30px;
-    background: lightgray;
     float: right;
     margin-right: 20px;
 }
@@ -561,13 +534,12 @@
 .footer-content-box-the-rest{
     width: 200px;
     height: 250px;
-    background: #45ADCF;
+   
 }
 
 .footer-topic{
     width: 100px;
     height: 30px;
-    background: lightgoldenrodyellow;
     font-family: Arial, Helvetica, sans-serif;
     color:#5C6162;
     font-size: 20px;
@@ -579,7 +551,6 @@
 .list-content{
     width: 150px;
     height: 200px;
-    background: #F4AFAF;
 
 }
 
@@ -598,7 +569,6 @@
 .bottom-container{
     width: 100%;
     height: 130px;
-    background: #E0D4F3;
     margin-top:20px;
     
 }
@@ -606,7 +576,6 @@
 .bottom-box1{
     width: 200px;
     height: 40px;
-    background: lightblue;
     color:#646B6D;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -620,7 +589,7 @@
 .bottom-box2{
     width: 300px;
     height: 50px;
-    background: lightpink;
+   
 }
 
 

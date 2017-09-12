@@ -108,6 +108,17 @@
     }
 }
 
+@media (max-width: 1265px){
+    .paris-box6{
+        display: none;
+    }
+
+    .container-each-pic-paris{
+        width: 18%;
+    
+    }
+}
+
 @media (max-width: 1230px){
     .right-arrow-container-home-pic3{
         position: absolute;
@@ -161,6 +172,25 @@
 
     }
 
+    .paris-box5{
+        display: none;
+    }
+
+    .container-each-pic-paris{
+        width: 23%;
+    
+    }
+
+    .guide-box{
+        top: 1170px;
+            
+    }
+
+    .text-box-paris{
+        top: 1190px;
+       
+    }
+
 
 }
 
@@ -193,9 +223,29 @@
         width: 50px;
     }
 
-      /* ==footer== */
+    /* ==Paris== */
+    .paris-box4{
+        display: none;
+    }
 
-      .wrapfooter-container{
+    .container-each-pic-paris{
+        width: 30.33%;
+    
+    }
+
+    .guide-box{
+        top: 1170px;
+            
+    }
+
+    .text-box-paris{
+        top: 1190px;
+       
+    }
+
+    /* ==footer== */
+
+    .wrapfooter-container{
         width: 95%;
 
     }
@@ -218,7 +268,7 @@
     .Experience-container{
         width: 100%;
         height: 370px;
-        background: lightgoldenrodyellow;
+      
     }
 
 
@@ -284,6 +334,7 @@
 
     .wrap-arrow-logo:hover .arrow-dropdown-container{
         display: block;
+        /* z-index: 100; */
     }
     .arrow-dropdown-container,
     .H1-detail-containe,
@@ -315,6 +366,17 @@
         border-top-color: #5F6162;
         border-top-width: 1px;
     }
+
+     /* ==Paris== */
+     .guide-box{
+         top: 1130px;
+     }
+
+     .text-box-paris{
+         top: 1150px;
+     }
+
+
 }
 
 @media (max-width: 650px){
@@ -343,79 +405,6 @@
     .footer-maincontent-container{
         height: 70px;
     }
-}
-
-
-@media (max-width: 555px){
-    .Experience-container{
-        height: 270px;
-    }
-
-    .text-underpic-box a{
-        font-size: 0.75em;
-    }
-
-
-    .searchbox-top-container{
-        display: none;
-    }
-
-    .searchbox-top-container2{
-        height: 40px;
-        width: 300px;
-        background: lightblue;
-        margin-top: 5px;
-    }
-
-    .airbnb-logo-searchbox-container{
-    
-        width: 380px;
-        
-    }
-
-    .each-search-box2{
-        height: 35px;
-        width: 300px;
-        display: inline-block;
-        background: lightgoldenrodyellow;
-        padding: 5px;
-        border-style: solid;
-        border-width: 1px;
-        border-color: #949799; 
-    }
-
-
-    .icon-text2{
-        margin-right: 12px;
-    }
-
-    /* ==footer== */
-    .footer-maincontent-container,
-    .footer-content-box1{
-        height: 130px;
-        width: 200px;
-        margin: auto;
-    }
-
-    .language-box,
-    .currency-box{
-        display: block;
-    }
-
-    .bottom-container{
-        display: flex;
-        flex-direction: column;
-        height: 90px;
-    }
-
-    .footer{
-        height: 300px;
-    }
-
-
-
-
-
 }
 
 @media (max-width: 565px){
@@ -450,16 +439,112 @@
     .wrap-expicsH{
         width: 100%;
         height: 75%;
-        background:lightgray;
+     
     }
 
     .reviewH{
         width: 100%;
         height: 25%;
-        background: lightpink;
+        
     }
 
+    /* ==Paris== */
+    .paris-box3{
+        display: none;
+    }
+
+    .container-each-pic-paris{
+        width: 45%;
+    
+    }
+
+    
+
+
 }
+
+
+@media (max-width: 555px){
+    .Experience-container{
+        height: 270px;
+    }
+
+    .text-underpic-box a{
+        font-size: 0.75em;
+    }
+
+
+    .searchbox-top-container{
+        display: none;
+    }
+
+    .searchbox-top-container2{
+        height: 40px;
+        width: 300px;
+        margin-top: 5px;
+    }
+
+    .airbnb-logo-searchbox-container{
+    
+        width: 380px;
+        
+    }
+
+    .each-search-box2{
+        height: 35px;
+        width: 300px;
+        display: inline-block;
+        padding: 5px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #949799; 
+    }
+
+
+    .icon-text2{
+        margin-right: 12px;
+    }
+
+    /* ==Paris== */
+
+    .guide-box{
+        top: 1030px;
+    }
+
+    .text-box-paris{
+        top: 1050px;
+    }
+
+    /* ==footer== */
+    .footer-maincontent-container,
+    .footer-content-box1{
+        height: 130px;
+        width: 200px;
+        margin: auto;
+    }
+
+    .language-box,
+    .currency-box{
+        display: block;
+    }
+
+    .bottom-container{
+        display: flex;
+        flex-direction: column;
+        height: 90px;
+    }
+
+    .footer{
+        height: 300px;
+    }
+
+
+
+
+
+}
+
+
 
 @media (max-width: 445px){
     .Experience-container{
@@ -492,4 +577,27 @@
         width: 50px;
     }
 
+    /* ==Paris== */
+
+    .guide-box{
+        top: 1000px;
+    }
+
+    .text-box-paris{
+        top: 1020px;
+    }
+
+
+}
+
+@media (max-width: 365px){
+    .paris-box2{
+        display: none;
+
+    }
+
+    .container-each-pic-paris{
+        width: 90%;
+    
+    }
 }
